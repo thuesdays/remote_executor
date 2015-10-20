@@ -1,0 +1,12 @@
+staging: windows_xp_x64
+pretenders:
+    host: mockua.pershastudia.org
+    port: 8000
+    timeout: 1800
+ip: 10.135.0.125
+wgc:
+    user: test
+    password: 9ma5wMhr
+    domain: UA1-WGCBOT-05
+    userprofile: C:\Documents and Settings\test
+    alluserprofile: C:\Documents and Settings\All Users\Application Data

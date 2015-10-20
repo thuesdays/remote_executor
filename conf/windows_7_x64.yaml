@@ -1,0 +1,12 @@
+staging: windows_7_x64
+pretenders:
+    host: mockua.pershastudia.org
+    port: 8000
+    timeout: 1800
+ip: 10.135.1.23
+wgc:
+    user: test
+    password: 123456
+    domain: testwin7x64
+    userprofile: C:\Users\test
+    alluserprofile: C:\ProgramData

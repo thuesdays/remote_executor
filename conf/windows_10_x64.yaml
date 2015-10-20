@@ -1,0 +1,12 @@
+staging: windows_10_x64
+pretenders:
+    host: mockua.pershastudia.org
+    port: 8000
+    timeout: 1800
+ip: 10.135.3.27
+wgc:
+    user: user
+    password: BB4MY
+    domain: 309_win10_bot
+    userprofile: C:\Users\user
+    alluserprofile: C:\ProgramData
