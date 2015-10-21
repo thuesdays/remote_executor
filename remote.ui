@@ -1,49 +1,169 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Form</class>
- <widget class="QWidget" name="Form">
+ <class>form</class>
+ <widget class="QWidget" name="form">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>582</width>
-    <height>451</height>
+    <width>927</width>
+    <height>693</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>RemoteManagment VBOX</string>
   </property>
   <widget class="QComboBox" name="operations">
    <property name="geometry">
     <rect>
-     <x>20</x>
+     <x>30</x>
      <y>40</y>
-     <width>161</width>
-     <height>22</height>
+     <width>171</width>
+     <height>31</height>
     </rect>
    </property>
   </widget>
   <widget class="QPushButton" name="execute_btn">
    <property name="geometry">
     <rect>
-     <x>210</x>
-     <y>40</y>
-     <width>101</width>
-     <height>23</height>
+     <x>30</x>
+     <y>90</y>
+     <width>171</width>
+     <height>31</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
    </property>
    <property name="text">
     <string>Execute</string>
    </property>
   </widget>
   <widget class="QPlainTextEdit" name="output">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>100</y>
-     <width>541</width>
-     <height>151</height>
+     <x>20</x>
+     <y>360</y>
+     <width>901</width>
+     <height>311</height>
     </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="execution">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>170</y>
+     <width>901</width>
+     <height>161</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>10</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>BOXes</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>10</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Templates</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="stagings">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>40</y>
+     <width>211</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>windows_7_x64</string>
+    </property>
+    <property name="checkState">
+     <enum>Checked</enum>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>windows_7_x64_2</string>
+    </property>
+    <property name="checkState">
+     <enum>Checked</enum>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>windows_8_x64</string>
+    </property>
+    <property name="checkState">
+     <enum>Checked</enum>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>windows_10_x64</string>
+    </property>
+    <property name="checkState">
+     <enum>Checked</enum>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>windows_xp_x64</string>
+    </property>
+    <property name="checkState">
+     <enum>Checked</enum>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="connect_ssh">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>130</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Connect</string>
    </property>
   </widget>
  </widget>
